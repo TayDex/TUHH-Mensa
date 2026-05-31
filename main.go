@@ -13,7 +13,7 @@ import (
 )
 
 const MENSA_LINK = "https://www.stwhh.de/gastronomie/mensen-cafes-weiteres/mensa/mensa-harburg"
-const NTFY_LINK = ""
+const NTFY_LINK = "https://ntfy.sh/elene_essen"
 
 func makeHTTPRequest(url string) (string, error) {
 	resp, err := http.Get(url)
